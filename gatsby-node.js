@@ -9,7 +9,7 @@ exports.onCreatePage = async ({ graphql, actions }) => {
   })
 
   createRedirect({
-    fromPath: `'/'`,
+    fromPath: `/`,
     toPath: `https://directory.lawnext.com/`,
     isPermanent: true
   });
