@@ -1,9 +1,7 @@
 import * as React from "react"
 
 const IndexPage = () => {
-  if (typeof window !== 'undefined') {
-    window.location = 'https://directory.lawnext.com'
-  }
+
   return (
     
     <main>
@@ -16,6 +14,3 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => {
-  <meta http-equiv="refresh" content="0; URL='https://directory.lawnext.com'" />
-}
