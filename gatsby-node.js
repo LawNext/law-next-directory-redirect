@@ -6,6 +6,12 @@ exports.onCreatePage = async ({ graphql, actions }) => {
     fromPath: ``,
     toPath: `https://directory.lawnext.com/`,
     isPermanent: true
+  })
+
+  createRedirect({
+    fromPath: ``,
+    toPath: `https://directory.lawnext.com/`,
+    isPermanent: true
   });
 
   createRedirect({
