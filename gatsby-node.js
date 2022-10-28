@@ -19,75 +19,75 @@ exports.onCreatePage = async ({ graphql, actions }) => {
     toPath: `https://directory.lawnext.com/*`,
     isPermanent: true
   });
-	/*
+	
 	createRedirect({
     fromPath: `/contracting-tech-center/`,
-    toPath: `/legal-technology-centers/contracting/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/contracting/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/document-tech-center/`,
-    toPath: `/legal-technology-centers/document-technology/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/document-technology/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/discovery-tech-center/`,
-    toPath: `/legal-technology-centers/discovery/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/discovery/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/expert-systems-and-decision-automation-tech-center/`,
-    toPath: `/legal-technology-centers/expert-systems-and-decision-automation/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/expert-systems-and-decision-automation/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/governance-risk-compliance-tech-center/`,
-    toPath: `/legal-technology-centers/governance-risk-and-compliance/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/governance-risk-and-compliance/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/law-department-technology-tech-center/`,
-    toPath: `/legal-technology-centers/law-department-technology/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/law-department-technology/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/law-practice-management-tech-center/`,
-    toPath: `/legal-technology-centers/law-practice-management/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/law-practice-management/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/litigation-tech-center/`,
-    toPath: `/legal-technology-centers/litigation/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/litigation/`,
     isPermanent: true
   });
   	createRedirect({
     fromPath: `/marketplaces-hiring-talent-management-tech-center/`,
-    toPath: `/legal-technology-centers/marketplaces-hiring-and-talent-management/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/marketplaces-hiring-and-talent-management/`,
     isPermanent: true
   });
   	createRedirect({
     fromPath: `/miscellaneous-tech-tools-tech-center/`,
-    toPath: `/legal-technology-centers/miscellaneous-tech-tools/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/miscellaneous-tech-tools/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/practice-area-specific-technology-tech-center/`,
-    toPath: `/legal-technology-centers/practice-area-specific-technology/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/practice-area-specific-technology/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/specialized-law-organizations-tech-center/`,
-    toPath: `/legal-technology-centers/specialized-law-organizations/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/specialized-law-organizations/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/legal-research-and-knowledge-management-tech-center/`,
-    toPath: `/legal-technology-centers/legal-research-and-knowledge-management/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/legal-research-and-knowledge-management/`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/transaction-management-tech-center/`,
-    toPath: `/legal-technology-centers/transaction-management/`,
+    toPath: `https://directory.lawnext.com/legal-technology-centers/transaction-management/`,
     isPermanent: true
   });
 
@@ -96,209 +96,209 @@ exports.onCreatePage = async ({ graphql, actions }) => {
 
   createRedirect({
     fromPath: `/directory-companies/listing/5600/`,
-    toPath: `/products/etheia`,
+    toPath: `https://directory.lawnext.com/products/etheia`,
     isPermanent: true
   })
   createRedirect({
     fromPath: `/directory-companies/listing/disco-ediscovery/`,
-    toPath: `/products/disco`,
+    toPath: `https://directory.lawnext.com/products/disco`,
     isPermanent: true
   })
   createRedirect({
     fromPath: `/directory-companies/listing/document-automation/`,
-    toPath: `/products/neota-document-automation`,
+    toPath: `https://directory.lawnext.com/products/neota-document-automation`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/expertise-automation/`,
-    toPath: `/products/neota-expertise-automation`,
+    toPath: `https://directory.lawnext.com/products/neota-expertise-automation`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/workflow-automation/`,
-    toPath: `/products/neota-workflow-automation`,
+    toPath: `https://directory.lawnext.com/products/neota-workflow-automation`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/nexl-client-revenue-platform`,
-    toPath: `/products/nexl`,
+    toPath: `https://directory.lawnext.com/products/nexl`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/pro-bono-software/`,
-    toPath: `/products/paladin`,
+    toPath: `https://directory.lawnext.com/products/paladin`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/equity-management-software/`,
-    toPath: `/products/pulley`,
+    toPath: `https://directory.lawnext.com/products/pulley`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/legal-data-api/`,
-    toPath: `/products/unicourt-legal-data-api`,
+    toPath: `https://directory.lawnext.com/products/unicourt-legal-data-api`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/reveal/`,
-    toPath: `/products/vijilent-reveal`,
+    toPath: `https://directory.lawnext.com/products/vijilent-reveal`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/legal-skills-learning-paths-and-programs-by-write-law/`,
-    toPath: `/products/write-law`,
+    toPath: `https://directory.lawnext.com/products/write-law`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/agiloft-contract-lifecycle-management-suite/`,
-    toPath: `/products/agiloft`,
+    toPath: `https://directory.lawnext.com/products/agiloft`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/alt-legal-ip-docketing-software/`,
-    toPath: `/products/alt-legal`,
+    toPath: `https://directory.lawnext.com/products/alt-legal`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/altaclaro-experiential-learning-platform/`,
-    toPath: `/products/altaclaro`,
+    toPath: `https://directory.lawnext.com/products/altaclaro`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/automated-contract-markup/`,
-    toPath: `/products/blackboiler`,
+    toPath: `https://directory.lawnext.com/products/blackboiler`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/canveo-e-contracting-platform/`,
-    toPath: `/products/canveo`,
+    toPath: `https://directory.lawnext.com/products/canveo`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/cognito-legal-workflow-software/`,
-    toPath: `/products/cognito`,
+    toPath: `https://directory.lawnext.com/products/cognito`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/courtroom-insight-litigation-knowledge-management/`,
-    toPath: `/products/courtroom-insight`,
+    toPath: `https://directory.lawnext.com/products/courtroom-insight`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/eie-legal-text-messaging-app/`,
-    toPath: `/products/eie-legal`,
+    toPath: `https://directory.lawnext.com/products/eie-legal`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/contract-intelligence-platform/`,
-    toPath: `/products/evisort`,
+    toPath: `https://directory.lawnext.com/products/evisort`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/legal-interns-on-demand/`,
-    toPath: `/products/law-student-connect`,
+    toPath: `https://directory.lawnext.com/products/law-student-connect`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/freelance-attorneys/`,
-    toPath: `/products/lawclerk-remote-associates`,
+    toPath: `https://directory.lawnext.com/products/lawclerk-remote-associates`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/legalsense-practice-management-software-pms/`,
-    toPath: `/products/legalsense`,
+    toPath: `https://directory.lawnext.com/products/legalsense`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/ai-contract-negotiation-solution`,
-    toPath: `/products/lexcheck`,
+    toPath: `https://directory.lawnext.com/products/lexcheck`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/ltc4-core-competency-learning-plans`,
-    toPath: `/products/ltc4`,
+    toPath: `https://directory.lawnext.com/products/ltc4`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/mattersuite-enterprise-legal-management`,
-    toPath: `/products/mattersuite`,
+    toPath: `https://directory.lawnext.com/products/mattersuite`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/merlin-integrated-search-powered-by-sherlock`,
-    toPath: `/products/merlin-integrated-search`,
+    toPath: `https://directory.lawnext.com/products/merlin-integrated-search`,
     isPermanent: true
   });
   createRedirect({
     fromPath: `/directory-companies/listing/naya-transaction-management-platform`,
-    toPath: `/products/naya`,
+    toPath: `https://directory.lawnext.com/products/naya`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/directory-companies/listing/epay-finance/reviews/5294/`,
-    toPath: `/products/epay-finance/reviews/`,
+    toPath: `https://directory.lawnext.com/products/epay-finance/reviews/`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/directory-companies/listing/savvyacademy-learning-management-system/reviews/5458/`,
-    toPath: `/products/savvyacademy-learning-management-system/reviews/`,
+    toPath: `https://directory.lawnext.com/products/savvyacademy-learning-management-system/reviews/`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/directory-companies/listing/bobaguard/reviews/*	`,
-    toPath: `/products/bobaguard/reviews/`,
+    toPath: `https://directory.lawnext.com/products/bobaguard/reviews/`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/directory-companies/listing/documate/reviews/*`,
-    toPath: `/products/sdocumate/reviews/`,
+    toPath: `https://directory.lawnext.com/products/sdocumate/reviews/`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/directory-companies/listing/onelaw/reviews/*`,
-    toPath: `/products/sdocumate/reviews/`,
+    toPath: `https://directory.lawnext.com/products/sdocumate/reviews/`,
     isPermanent: true
   });
 
 
 	createRedirect({
     fromPath: `/directory-companies/categories/*`,
-    toPath: `/categories/*`,
+    toPath: `https://directory.lawnext.com/categories/*`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/directory-companies/listing/*`,
-    toPath: `/products/*`,
+    toPath: `https://directory.lawnext.com/products/*`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/for-reviewers/`,
-    toPath: `/write-a-review/`,
+    toPath: `https://directory.lawnext.com/write-a-review/`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/for-vendors/`,
-    toPath: `/sell-on-lawnext/`,
+    toPath: `https://directory.lawnext.com/sell-on-lawnext/`,
     isPermanent: true
   });
 
   createRedirect({
     fromPath: `/search/`,
-    toPath: `/`,
+    toPath: `https://directory.lawnext.com/`,
     isPermanent: false
   });
 
   createRedirect({
     fromPath: `/review-product/*`,
-    toPath: `/review/*`,
+    toPath: `https://directory.lawnext.com/review/*`,
     isPermanent: true
   });
 
@@ -310,11 +310,9 @@ exports.onCreatePage = async ({ graphql, actions }) => {
 
   createRedirect({
     fromPath: `/premium-opportunities/`,
-    toPath: `/`,
+    toPath: `https://directory.lawnext.com/`,
     isPermanent: false
   });
-
-*/
 
   
 }
